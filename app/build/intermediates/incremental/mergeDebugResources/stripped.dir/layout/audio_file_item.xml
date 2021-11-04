@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+     
+    
+                 
+                                     
+                                                           
+           
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="#FFFFFF"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" android:tag="layout/audio_file_item_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/duration"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/album"
+            android:tag="binding_1"                   
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/album"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/dummy"
+            app:layout_constraintBottom_toTopOf="@id/separator"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:tag="binding_2"                   
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/dummy"
+            android:text="-"
+            app:layout_constraintStart_toEndOf="@id/album"
+            app:layout_constraintEnd_toStartOf="@id/artist"
+            app:layout_constraintBottom_toTopOf="@id/separator"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/separator"
+            app:layout_constraintEnd_toStartOf="@id/duration"
+            app:layout_constraintStart_toEndOf="@id/dummy"
+            android:tag="binding_3"                    
+            app:layout_constraintTop_toBottomOf="@id/title" />
+        <TextView
+            android:id="@+id/duration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/separator"
+            android:layout_width="wrap_content"
+            android:tag="binding_4"                      
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/separator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

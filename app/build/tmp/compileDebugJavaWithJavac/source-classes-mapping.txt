@@ -1,0 +1,39 @@
+com/example/mymusiconly/DataBindingTriggerClass.java
+ com.example.mymusiconly.DataBindingTriggerClass
+com/example/spotifo/AudioFileListAdapter.java
+ com.example.spotifo.AudioFileListAdapter
+ com.example.spotifo.AudioFileListAdapter$ViewHolder
+com/example/spotifo/ApiAuthentification.java
+ com.example.spotifo.ApiAuthentification
+com/example/mymusiconly/BuildConfig.java
+ com.example.mymusiconly.BuildConfig
+com/example/spotifo/AudioFileListFragment.java
+ com.example.spotifo.AudioFileListFragment
+com/example/spotifo/MainActivity.java
+ com.example.spotifo.MainActivity
+ com.example.spotifo.MainActivity$1
+com/example/spotifo/ServicePlayer.java
+ com.example.spotifo.ServicePlayer
+com/example/spotifo/ControlMusicFragment.java
+ com.example.spotifo.ControlMusicFragment
+ com.example.spotifo.ControlMusicFragment$1
+ com.example.spotifo.ControlMusicFragment$2
+ com.example.spotifo.ControlMusicFragment$3
+com/example/spotifo/AudioFile.java
+ com.example.spotifo.AudioFile
+com/example/mymusiconly/databinding/AudioFileItemBinding.java
+ com.example.mymusiconly.databinding.AudioFileItemBinding
+com/example/spotifo/ControlListener.java
+ com.example.spotifo.ControlListener
+com/example/mymusiconly/databinding/AudioFileListFragmentBinding.java
+ com.example.mymusiconly.databinding.AudioFileListFragmentBinding
+com/example/spotifo/PostMethod.java
+ com.example.spotifo.PostMethod
+com/example/spotifo/AudioFileViewModel.java
+ com.example.spotifo.AudioFileViewModel
+com/example/mymusiconly/databinding/ActivityMainBinding.java
+ com.example.mymusiconly.databinding.ActivityMainBinding
+com/example/mymusiconly/databinding/ControlMusicFragmentBinding.java
+ com.example.mymusiconly.databinding.ControlMusicFragmentBinding
+com/example/spotifo/User.java
+ com.example.spotifo.User

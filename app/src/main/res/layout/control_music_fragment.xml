@@ -1,0 +1,36 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:background="#FFFFFF"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/previousbutton" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:background="#FFFFFF"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/playbutton"
+            android:tag="play" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:background="#FFFFFF"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/nextbutton" />
+
+    </LinearLayout>
+</layout>
